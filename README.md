@@ -107,7 +107,7 @@ curl -X POST "http://localhost:8000/get-config" \
 ## API Endpoints
 
 The following endpoints are available:
-
+See more details in /docs
 ### Connection
 - **POST** `/connect` - Test connection to the VyOS router
 
@@ -128,7 +128,3 @@ The following endpoints are available:
 - Consider using HTTPS in production
 - Store sensitive information (passwords) securely
 - For production use, consider implementing a database-backed authentication system
-
-## License
-
-[MIT License](LICENSE) 
